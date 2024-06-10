@@ -1,20 +1,20 @@
 package factoryDesignPattern;
 
-public class PhantomImpl implements GunInterface {
+public class OperatorImpl implements GunInterface{
 
     @Override
     public int damage() {
-        return 140;
+        return 250;
     }
 
     @Override
     public int ammoCapacity() {
-        return 30;
+        return 5;
     }
 
     @Override
     public int spray() {
-        return 80;
+        return 999;
     }
     
 }

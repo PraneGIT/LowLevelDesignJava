@@ -1,6 +1,6 @@
 package factoryDesignPattern;
 
-public class VandalImpl implements RifleInterface{
+public class VandalImpl implements GunInterface{
 
     @Override
     public int damage() {

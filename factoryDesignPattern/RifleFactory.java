@@ -1,9 +1,9 @@
 package factoryDesignPattern;
 
-public class RifleFactory {
-    public RifleInterface getRifle(String rifle){
-        RifleInterface rifleInterface = null;
-        switch(rifle){
+public class RifleFactory implements GunFactory{
+    public GunInterface createGun(String type){
+        GunInterface rifleInterface = null;
+        switch(type){
             case "Vandal":
                 rifleInterface = new VandalImpl();
                 System.out.println("Vandal created");
