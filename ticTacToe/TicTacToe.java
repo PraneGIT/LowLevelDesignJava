@@ -58,12 +58,14 @@ public class TicTacToe {
             if(winner){
                 board.printBoard();
                 System.out.println(currPlayer.getName() + " wins!");
+                inputScanner.close();
                 break;
             }
 
             if(board.isFull()){
                 board.printBoard();
                 System.out.println("It's a draw!");
+                inputScanner.close();
                 break;
             }
             
