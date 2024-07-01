@@ -1,11 +1,12 @@
 package VehicleRental.Models;
 
 public interface Vehicle {
-    public String getVehicleType();
+    public VehicleTypes getVehicleType();
     public String getVehicleName();
     public String getVehicleNumber();
     public int getVehicleCapacity();
     public int getVehicleRate();
+    public VehicleStatus getStatus();
     public boolean isVehicleAvailable();
     public void setVehicleAvailable(boolean available);
     public void setVehicleRate(int rate);
