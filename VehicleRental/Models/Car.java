@@ -1,4 +1,4 @@
-package VehicleRental.Models;
+package vehicleRental.Models;
 
 public class Car implements Vehicle {
 

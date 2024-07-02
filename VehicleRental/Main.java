@@ -1,8 +1,8 @@
-package VehicleRental;
+package vehicleRental;
 import java.util.ArrayList;
 import java.util.List;
 
-import VehicleRental.Models.*;
+import vehicleRental.Models.*;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,7 +1,7 @@
-package VehicleRental;
+package vehicleRental;
 import java.util.List;
 
-import VehicleRental.Models.*;
+import vehicleRental.Models.*;
 
 public class VehicleRentalSystem {
 

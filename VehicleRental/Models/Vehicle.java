@@ -1,4 +1,4 @@
-package VehicleRental.Models;
+package vehicleRental.Models;
 
 public interface Vehicle {
     public VehicleTypes getVehicleType();
