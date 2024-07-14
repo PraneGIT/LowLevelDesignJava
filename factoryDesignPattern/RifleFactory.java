@@ -13,6 +13,7 @@ public class RifleFactory implements GunFactory{
                 System.out.println("Phantom created");
                 break;
             default:
+                rifleInterface = new NullGunImpl();
                 System.out.println("Invalid Rifle");
         }
         return rifleInterface;

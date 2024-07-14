@@ -9,6 +9,7 @@ public class SniperFactory implements GunFactory{
                 System.out.println("Operator created");
                 break;
             default:
+                sniperInterface = new NullGunImpl();
                 System.out.println("Invalid Sniper");
          }
 

@@ -5,6 +5,10 @@ public class Gun {
         GunFactory rifleFactory = new RifleFactory();
         GunFactory sniperFactory = new SniperFactory();
 
+        GunInterface gun2 = rifleFactory.createGun("nullGun");
+        //  NULL design pattern, even if invalid added to the factory, it will return 0 values
+        System.out.println("Damage: " + gun2.damage()); 
+
 
         GunInterface gun = rifleFactory.createGun("Vandal");
         System.out.println("Damage: " + gun.damage());
