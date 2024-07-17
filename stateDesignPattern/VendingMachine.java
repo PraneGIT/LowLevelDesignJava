@@ -13,6 +13,8 @@ public class VendingMachine {
         this.itemQuantity = itemQuantity;
         if (itemQuantity == 0) {
             state = new NoItemState();
+        }else{
+            state = new HasItemState();
         }
     }
 
